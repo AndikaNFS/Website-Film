@@ -55,11 +55,13 @@ export default function Register() {
                                 </div>
                             </div>
                             <div className="grid space-y-[14px] mt-[30px]">
-                                <DangerButton className=" bg-alerange">
-                                    <span className="text-base font-semibold">
-                                        Sing Up
-                                    </span>
-                                </DangerButton>
+                                <Link href={route("prototype.dashboard")}> 
+                                    <DangerButton className=" bg-alerange">
+                                        <span className="text-base font-semibold">
+                                            Sing Up
+                                        </span>
+                                    </DangerButton>
+                                </Link>
                                 <Link href={route("prototype.login")}>
                                     <DangerButton className="border border-white py-[13px] text-center">
                                         <span className="text-base text-white">

@@ -1,5 +1,5 @@
 .input-primary {
-    @apply focus:bg-fora-bg bg-fora-bg focus:outline-alerange focus:outline-none;
+    @layer focus:bg-fora-bg bg-fora-bg focus:outline-alerange focus:outline-none;
 }
 
 .input-error {

@@ -2,6 +2,7 @@ import TextInput from "@/Components/TextInput";
 import InputLabel from "@/Components/InputLabel";
 import DangerButton from "@/Components/DangerButton";
 import { Link, Head } from "@inertiajs/inertia-react";
+// import "../../../css/textinput.css";
 
 export default function Login(){
     return (
@@ -50,21 +51,13 @@ export default function Login(){
                                 </div>
                             </div>
                             <div className="grid space-y-[14px] mt-[30px]">
-                                {/* <a href="/" className="rounded-2xl bg-alerange py-[13px] text-center">
-                                    <span className="text-base font-semibold">
-                                        Start Watching
-                                    </span>
-                                </a>
-                                <a href="sign_up.html" className="rounded-2xl border border-white py-[13px] text-center">
-                                    <span className="text-base text-white">
-                                        Create New Account
-                                    </span>
-                                </a> */}
-                                <DangerButton type="button" className=" bg-alerange">
-                                    <span className="text-base font-semibold">
-                                        Start Watching
-                                    </span>
-                                </DangerButton>
+                                <Link href={route('prototype.dashboard')}>
+                                    <DangerButton type="button" className=" bg-alerange">
+                                        <span className="text-base font-semibold">
+                                            Start Watching
+                                        </span>
+                                    </DangerButton>
+                                </Link>
                                 <Link href={route('prototype.register')}>
                                     <DangerButton type="button" className="border border-white py-[13px] text-center">
                                         <span className="text-base text-white">
@@ -72,11 +65,6 @@ export default function Login(){
                                         </span>
                                     </DangerButton>
                                 </Link>
-                                {/* <!-- <button type="submit" class="rounded-2xl bg-alerange py-[13px] text-center">
-                                    <span class="text-base font-semibold">
-                                        Start Watching
-                                    </span>
-                                </button> --> */}
                             </div>
                         </form>
                     </div>
