@@ -23,6 +23,11 @@
         "vite": "^4.0.0"
     },
     "dependencies": {
-        "git-flow": "^0.2.0"
+        "flickity": "^2.3.0",
+        "git-flow": "^0.2.0",
+        "postcss-import": "^15.1.0",
+        "prop-types": "^15.8.1",
+        "react-flickity-component": "^4.0.0",
+        "react-player": "^2.11.0"
     }
 }
