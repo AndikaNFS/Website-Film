@@ -22,7 +22,7 @@ class MovieTableSeeder extends Seeder
                 'video_url' => 'https://www.youtube.com/watch?v=yVIAtgvte68',
                 'category' => 'Comedy',
                 'thumbnail' => '',
-                'rating' => 8.3,
+                'rating' => 4.3,
                 'is_featured' => 1,
             ],
             [
@@ -31,7 +31,7 @@ class MovieTableSeeder extends Seeder
                 'category' => 'Comedy',
                 'video_url' => 'https://www.youtube.com/watch?v=UQdmNHRqXsw',
                 'thumbnail' => '',
-                'rating' => 7.3,
+                'rating' => 4.3,
                 'is_featured' => 0,
             ],
             [
@@ -40,7 +40,7 @@ class MovieTableSeeder extends Seeder
                 'video_url' => 'https://www.youtube.com/watch?v=dB_v7ibRFoY',
                 'category' => 'Comedy',
                 'thumbnail' => '',
-                'rating' => 9.3,
+                'rating' => 4.3,
                 'is_featured' => 0,
             ],
         ];
